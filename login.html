@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="login">
+				<div class="content">
+					<h2>商家后台</h2>
+					<div class="input-group">
+						<div class="input-group-addon icon-1">
+							<span class="glyphicon glyphicon-user"></span>
+						</div>
+						<input type="text" class="form-control" id="username" placeholder="输入昵称或手机号"/>
+					</div>				
+					<form class="input2" name="forms">
+		                <span id="box">
+		                    <div class="input-group">
+		                        <div class="input-group-addon icon-2">
+		                        	<span class="glyphicon glyphicon-lock"></span>
+		                        </div>
+		                        <input class="form-control" id="password" type="password" placeholder="输入密码">
+		                    </div>
+		                </span>
+		            </form>
+				</div>
+				<div class="alert alert-danger alert-dismissible">
+		            <button type="button" class="close">
+		                <span aria-hidden="true">×</span>
+		            </button>
+	            		请输入您的昵称或手机号
+		        </div>
+				<!--注册登陆开始-->
+				<div class="zhuce">
+		            <button class="btn btn-primary btn-lg btn-block">登录</button>
+		        </div>
+				<div class="forgetpwd">
+		            <a class="pull-left" href="forgetpwd.html">忘记密码</a>
+		            <a class="pull-right" href="regist.html">注册</a>
+		        </div>
+			
+			</div>
+		</div>
+		<script src="js/jquery-1.10.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

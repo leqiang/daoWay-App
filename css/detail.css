@@ -1,0 +1,271 @@
+.service-center {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+/*分类*/
+.h2 {
+    line-height: 85px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bright {
+    margin: 0 10px;
+    font-weight: normal;
+}
+
+.h2 .cnav {
+    color: #fb4e55;
+}
+/*左边*/
+.centerleft {
+    width: 960px;
+    float: left;
+    margin-bottom: 50px;
+}
+.centerleft .ctop {
+    height: 220px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-top: none;
+}
+
+.centerleft .pic {
+    border: 1px solid #e5e5e5;
+    margin: 30px;
+    float: left;
+     vertical-align: middle;
+}
+.centerleft .spm {
+    float: left;
+    position: relative;
+    top: 25px;
+}
+
+
+.centerleft .spm i {
+	font-size: 14px;
+    display: block;
+    line-height: 42px;
+    height: 42px;
+    
+}
+.centerleft .spm i:nth-child(1) {
+    font-size: 18px;
+    color: #1d1515;
+}
+.centerleft .spm i b {
+    font-size: 20px;
+    color: #fc545e;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.centerleft .spm i b em {
+    font-size: 14px;
+    font-style: normal;
+}
+.centerleft .spm i b.oldpic {
+    font-size: 14px;
+    color: #898989;
+    margin-left: 40px;
+    font-weight: normal;
+}
+.centerleft .spm i b.oldpic em{
+	text-decoration:line-through;
+}
+.centerleft .spm i .youhui {
+    border: 1px solid #fb474f;
+    color: #fb474f;
+    font-size: 12px;
+    padding: 0 6px;
+    border-radius: 6px;
+    text-align: center;
+    font-style: normal;
+    margin-left: 10px;
+    height: 24px;
+    line-height: 24px;
+}
+.centerleft .spm i .yishou {
+    color: #fb474f;
+    margin-left: 10px;
+    font-style: normal;
+}
+
+.centerleft .spf {
+    float: right;
+    margin: 20px 60px 0 0;
+}
+
+.centerleft canvas {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.centerleft .spf b {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.centerleft .spf b:nth-child(3) {
+    color: #fb474f;
+}
+.centerleft .cdown {
+    clear: both;
+    background: #fff;
+    padding: 30px 20px;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+.centerleft .cdown b {
+    font-size: 14px;
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    margin-top: 10px;
+    width: 66px;
+    display: block;
+    font-weight: 700;
+}
+#orderingNotice {
+	background: #fffcf1;
+}
+.centerleft .cdown p {
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+/*右边*/
+.centerright {
+    width: 230px;
+    float: right;
+}
+.centerright .rightct {
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+}
+.centerright .rightct h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+}
+.centerright img {
+	 margin: 40px 50px;
+    margin-bottom: 10px;
+	text-align: center;
+    vertical-align: middle;
+}
+.centerright .rightct p {
+    text-align: left;
+    padding: 0 10px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.centerright .rightct p:nth-child(3) {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.centerright .rightct p i {
+    float: right;
+    color: #fb474f;
+}
+.centerright .erweima {
+    width: 230px;
+    height: 290px;
+    background: url(../img/tuijianfuwushang_06.jpg) no-repeat center;
+    margin-top: 10px;
+}
+.centerright .erweima img {
+    margin: 50px 0 0 50px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/forgetpwd.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="forgetPwd">
+				<div class="content">
+					<h2>重置密码</h2>				
+					<div class="control-group">
+						<div class="input">							
+							<input class="form-control" maxlength="11" type="text" placeholder="请输入手机号"/>
+							<div class="input-group">
+							   	<input class="form-control" maxlength="4" type="text" placeholder="请输入验证码"/>
+								<span class="input-group-addon">获取验证码</span>
+								<span class="input-group-addon" style="display: none;">重新发送60</span>
+							</div>
+							
+						</div>
+						<input class="form-control"type="password" placeholder="请输入新密码">
+					</div>
+					
+		        </div>
+				<br />
+				<div class="alert alert-danger">
+					<button type="button" class="close">
+	                    <span aria-hidden="true">×</span>
+	                </button>
+                		验证码验证失败：电话和验证码不能为空
+				</div>
+				<div class="zhuce">
+	                <button class="btn btn-primary btn-lg btn-block">确认重置</button>
+	            </div>
+				<div class="return">
+	                <a href="login.html">返回</a>
+	            </div>
+			</div>
+		</div>
+	</body>
+</html>
